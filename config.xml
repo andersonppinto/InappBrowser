@@ -1,25 +1,42 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- 
-       Licensed to the Apache Software Foundation (ASF) under one
-       or more contributor license agreements.  See the NOTICE file
-       distributed with this work for additional information
-       regarding copyright ownership.  The ASF licenses this file
-       to you under the Apache License, Version 2.0 (the
-       "License"); you may not use this file except in compliance
-       with the License.  You may obtain a copy of the License at
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.phonegap.inappbrowser"
+        versionCode = "10" 
+        version     = "1.0.0" >
 
-         http://www.apache.org/licenses/LICENSE-2.0
+    <!-- versionCode is optional and Android only -->
 
-       Unless required by applicable law or agreed to in writing,
-       software distributed under the License is distributed on an
-       "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-       KIND, either express or implied.  See the License for the
-       specific language governing permissions and limitations
-       under the License.
--->
-<plugins>
-    <plugin name="App" value="org.apache.cordova.App"/>
-    <plugin name="Geolocation" value="org.apache.cordova.GeoBroker"/>
-    <plugin name="Device" value="org.apache.cordova.Device"/>
-    <plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser"/>
-</plugins>
+    <name>PhoneGap InAppBrowser</name>
+
+    <description>
+        Exemplo de Teste InAppBroser
+    </description>
+
+    <author href="https://build.phonegap.com" email="support@phonegap.com">
+        Anderson
+    </author>
+
+<gap:platform name="ios" />
+<gap:platform name="android" />
+<gap:platform name="winphone" />
+<icon src="logo_inappbrowser.png" />
+<gap:splash src="splash/ios/Default-568h@2x~iphone.png" gap:platform="ios" width="320" height="480" />
+<feature name="http://api.phonegap.com/1.0/network" />
+<feature name="http://api.phonegap.com/1.0/camera" />
+<feature name="http://api.phonegap.com/1.0/notification" />
+<feature name="http://api.phonegap.com/1.0/geolocation" />
+<feature name="http://api.phonegap.com/1.0/media" />
+<feature name="http://api.phonegap.com/1.0/contacts" />
+<feature name="http://api.phonegap.com/1.0/file" />
+<feature name="http://api.phonegap.com/1.0/battery" />
+<feature name="http://api.phonegap.com/1.0/device" />
+
+<gap:plugin name="com.phonegap.plugins.App" />
+<gap:plugin name="com.phonegap.plugins.GeoBroker" />
+<gap:plugin name="com.phonegap.plugins.Device" />
+<gap:plugin name="com.phonegap.plugins.InAppBroser" />
+
+<access origin="*" />	
+</widget>
+<script src="cordova.js"></script>
