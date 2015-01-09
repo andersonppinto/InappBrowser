@@ -7,10 +7,10 @@
 
     <!-- versionCode is optional and Android only -->
 
-    <name>PhoneGap InAppBrowser</name>
+    <name>App InAppBrowser</name>
 
     <description>
-        Exemplo de Teste InAppBroser
+        Exemplo de Teste InAppBrowser
     </description>
 
     <author href="https://build.phonegap.com" email="support@phonegap.com">
@@ -21,7 +21,7 @@
 <gap:platform name="android" />
 <gap:platform name="winphone" />
 <icon src="logo_inappbrowser.png" />
-<gap:splash src="splash/ios/Default-568h@2x~iphone.png" gap:platform="ios" width="320" height="480" />
+<gap:splash src="splash/ios/splash/ios/splash.png" gap:platform="ios" width="320" height="480" />
 
 <feature name="http://api.phonegap.com/1.0/network" />
 <feature name="http://api.phonegap.com/1.0/camera" />
