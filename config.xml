@@ -22,6 +22,7 @@
 <gap:platform name="winphone" />
 <icon src="logo_inappbrowser.png" />
 <gap:splash src="splash/ios/Default-568h@2x~iphone.png" gap:platform="ios" width="320" height="480" />
+
 <feature name="http://api.phonegap.com/1.0/network" />
 <feature name="http://api.phonegap.com/1.0/camera" />
 <feature name="http://api.phonegap.com/1.0/notification" />
@@ -38,5 +39,5 @@
 <gap:plugin name="com.phonegap.plugins.InAppBroser" />
 
 <access origin="*" />	
-</widget>
 <script src="cordova.js"></script>
+</widget>
