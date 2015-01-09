@@ -33,9 +33,6 @@
 <feature name="http://api.phonegap.com/1.0/battery" />
 <feature name="http://api.phonegap.com/1.0/device" />
 
-
-<gap:plugin name="com.phonegap.plugins.GeoBroker" />
-<gap:plugin name="com.phonegap.plugins.Device" />
 <gap:plugin name="com.phonegap.plugins.InAppBroser" />
 
 <access origin="*" />	
